@@ -1,5 +1,5 @@
 UPDATE characters
-SET characters.species = "Martian"
+SET species = "Martian"
 WHERE species = "cylon"
 
 -- ORDER BY characters.id DESC
