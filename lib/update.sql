@@ -1,5 +1,4 @@
 UPDATE characters
-
 WHERE characters.id = MAX(characters.id)
 SET characters.species = "Martian"
 
