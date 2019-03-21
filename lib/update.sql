@@ -1,6 +1,6 @@
 UPDATE characters
 SET characters.species = "Martian"
-WHERE characters.id = MAX(characters.id)
+WHERE characters.species = "cylon"
 
 -- ORDER BY characters.id DESC
 -- LIMIT 1;
